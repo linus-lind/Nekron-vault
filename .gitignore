@@ -1,0 +1,19 @@
+# Obsidian workspace/cache (machine-specific, noisy)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Keep plugin configs and appearance so setup is portable:
+# (do NOT ignore .obsidian/ entirely — we want plugins/settings versioned)
+
+# Never commit secrets, even by accident
+*.env
+.env
+secrets*.md
+*credentials*
+*.key
